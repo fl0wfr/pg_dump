@@ -14,6 +14,7 @@ runs every day at 1:00 am).
 
 | Variable                 | Alias        | Required?  | Default               | Description                                                                                   |
 |--------------------------|:-------------|:-----------|:----------------------|:----------------------------------------------------------------------------------------------|
+| `TZ`                     | `None`       | Optional   | UTC                   | Timezone                                                                                      |
 | `PGUSER`                 | `None`       | Optional   | postgres              | The user for accessing the database                                                           |
 | `POSTGRES_PASSWORD`      | `PGPASSWORD` | Optional   | `None`                | The password for accessing the database                                                       |
 | `POSTGRES_DB`            | `PGDB`       | Optional   | postgres              | The name of the database                                                                      |
