@@ -143,7 +143,7 @@ previous tagged versions will be maintained.
 
 Versions available on docker hub are:
 
-    11.19 11.21 12.12 12.16 13.12 14.7 14.9 15.2 15.4 16.1 17.10
+    16.14 17.10
 
     latest is 17.10
 
