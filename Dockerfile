@@ -1,4 +1,4 @@
-ARG POSTGRES_VERSION=12.16
+ARG POSTGRES_VERSION=16.14
 FROM postgres:${POSTGRES_VERSION}-trixie
 LABEL org.opencontainers.image.authors="rowe.andrew.d@gmail.com"
 
