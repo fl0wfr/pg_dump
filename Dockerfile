@@ -4,7 +4,7 @@ LABEL org.opencontainers.image.authors="rowe.andrew.d@gmail.com"
 
 RUN \
 apt-get update && \
-apt-get install -y cron  && \
+apt-get install -y cron tzdata  && \
 apt-get install -y s3cmd  && \
 apt-get clean && \
 rm -rf /var/lib/apt/lists/*
