@@ -3,16 +3,16 @@ REVISION := b
 NAME := "martlark/pg_dump"
 
 dc-build:
-	docker compose -f docker-compose-dev.yml build backup-12-16 backup-15-2 backup-17-10
+	docker compose -f docker-compose-dev.yml build backup-12-16 backup-15-2
 
 dc-up: dc-build
-	docker compose -f docker-compose-dev.yml up -d backup-12-16 backup-15-2 backup-17-10
+	docker compose -f docker-compose-dev.yml up -d backup-12-16 backup-15-2
 
 dc-logs: dc-build
-	docker compose -f docker-compose-dev.yml logs -f backup-12-16 backup-15-2 backup-17-10
+	docker compose -f docker-compose-dev.yml logs -f backup-12-16 backup-15-2
 
 dc-bash:
-	docker compose -f docker-compose-dev.yml exec backup-12-16 backup-15-2 backup-17-10 bash
+	docker compose -f docker-compose-dev.yml exec backup-12-16 backup-15-2 bash
 
 dc-stop:
 	docker compose -f docker-compose-dev.yml stop
